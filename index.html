@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <!-- ------------------------------NAVBAR------------------------------ -->
+    <nav class="nav">
+        <div class="navbar">
+            <div class="logo"><a href="./index.html"><img class="logo-img" src="./assets/image/EmbeddedImage.png" alt=""></a></div>
+            <h3 class="logo-text">CTiS</h3>
+            <i class="bx bx-menu"></i>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <!-- <img class="responsive-logo" src="EmbeddedImage.png" alt=""> -->
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li class="nav-items"><a class="item-links" href="./index.html">Home</a></li>
+                    <li class="nav-items"><a class="item-links" href="./pages/program.html">Program</a></li>
+                    <li class="nav-items"><a class="item-links" href="#">Proceedings</a></li>
+                    <li class="nav-items"><a class="item-links" href="#">Registrations</a></li>
+                    <li class="nav-items"><a class="item-links" href="#">Speakers</a></li>
+                    <li class="nav-items">
+                        <a class="item-links" href="#">Selected Abstracts</a>
+                        <i class='bx bx-chevron-down'></i>
+                        <ul class="dropdown-content sub-menu">
+                            <li class="dropdown-text"><a class="dropdown-link" href="#">Call for Abstracts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-items"><a class="item-links" href="#">Organisation</a></li>
+                    <li class="nav-items"><a class="item-links" href="#">Partners</a></li>
+                    <li class="nav-items"><a class="item-links" href="#">Previous CTiS Conferences</a></li>
+                    <li class="nav-items noHover"><a class="cta" href="#"><button class="btn-contact">Contact us</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br>
+
+    <!-- ------------------------------CAROUSEL------------------------------ -->
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numberText">3 / 3</div>
+            <img class="carousel-img" src="./assets/image/Banner_blue_1370x370-1.jpg" alt="" style="width: 100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numberText">1 / 3</div>
+            <img class="carousel-img" src="./assets/image/CTiS.JPG" alt="" style="width: 100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numberText">2 / 3</div>
+            <img class="carousel-img" src="./assets/image/protect-environment.jpg" alt="" style="width: 100%;">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div> -->
+    
+    <!-- ------------------------------CONTENT------------------------------ -->
+    <section class="home-container">
+        <h3 class="host-text">Hosted by ---------------------</h3>
+        <h1 class="about-head">About Conference</h1>
+        <hr data-aos="fade-right">
+        <p class="about-para">
+            CSpathshala (<strong><a class="web-links" href="https://cspathshala.org/" target="_blank">https://cspathshala.org</a></strong>) proudly announces the third conference on Computational Thinking in Schools (CTiS2022) from 29th September to 2nd October 2022 at School of Scholars, Nagpur. Owing to the pandemic the conference will be held in the virtual format. <br><br>
+
+            The CTiS (Computational Thinking in Schools) conference is an annual event organised by the ACM (Association of Computing Machinery) and the CSpathshala community. It aims to bring together teachers, educators and researchers to discuss issues of curriculum, pedagogy, policy and implementation, related to bringing computational thinking to schools. <br><br>
+
+            CSpathshala is an Association for Computing Machinery India (ACM India) initiative to bring a modern computing curriculum to Indian schools. In many countries across the world, Computational Thinking (CT) has been identified as a critical skill to be developed in children during the school years. It advances the notion that the mathematics and science behind computer science, go far beyond the simple ability to use computers, and can be taught and discussed in schools even without the use of computers. The first CTiS conference was held in Pune in April 2019 and the second conference was held in virtual mode in October 2020. Both were greatly successful and were well received by teachers and educators. <strong>4 of the abstracts from CTiS2020 were selected at CTE-STEM 2021 International Teachers Forum and Pooja Palaparthi, was selected for <a class="web-links" href="https://cspathshala.org/2021/07/09/the-journey-from-ctis2020-to-cte-stem-2021/" target="_blank">CTE-STEM 2021 Best Paper Award. Read more....</a></strong> <br><br>
+
+            CTiS2022 aims to provide a platform for teachers, educators and experts to share their best practices as well as challenges faced in implementing computational thinking in education. The discussions will focus on integrating CT activities (both plugged and unplugged) in various school subjects, on student learning outcomes and on disseminating findings of CT based experiments or classroom research conducted by teachers and educators across the country. <br><br>
+
+            Our 4-day conference features key note speakers, Hal Abelson, MIT, USA, Manish Jain, IIT Gandhinagar, Patricia Ordóñez, University of Puerto Rico Río Piedras and Wolfgang Slany, TU Graz, Austria. The conference also features a workshop on CT and inclusion, conducted by Supriya Dey, Vision Empower and Manohar Swaminathan, Microsoft Research, Bengaluru and presentations of selected abstracts with sessions on implementation of computational thinking, fun activities and innovative examples used by teachers in classrooms!
+        </p>
+
+        <h1 class="register-head">Registrations</h1>
+        <hr data-aos="fade-right">
+        <p class="register-para">
+            The registration is free and open till <strong>28th September, 2022. Registration is mandatory.</strong><br>
+            <button class="btn-register"><a class="web-links register" href="https://acm-org.zoom.us/webinar/register/WN_PDuCo2V8QJivxoeNZBLPiw" target="_blank">Register here</a></button>
+        </p>
+
+        <h1 class="contact-head">Contact us</h1>
+        <hr data-aos="fade-right">
+        <p class="contact-para">
+            For any questions related to the conference, please contact us at: <a class="web-links mail" href="mailto:ctis2022@cspathshala.org"><ion-icon name="mail"></ion-icon><strong><span style="padding-left: 7px;">ctis2022@cspathshala.org</span></strong></a>
+        </p>
+    </section>
+
+    <footer>
+        <img class="footer" src="./assets/image/Untitled.jpg" alt="">
+    </footer>
+
+    <script src="./scripts/app.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
