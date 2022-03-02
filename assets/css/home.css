@@ -398,17 +398,21 @@
 }
 .register, .mail{
     text-decoration: none;
-    color: #000;
+    /* color: #000; */
 }
 .mail{
     color: #393185;
+}
+
+.register{
+    color: white;
 }
 
 .btn-register {
     padding: 9px 20px;
     margin: 30px auto 0px auto;
     /* background-color: rgb(9, 173, 214); */
-    background-color: rgb(139, 198, 243);
+    background-color: #393185;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -416,9 +420,9 @@
     font-size: 1.08rem;
 }
 
-.btn-register:hover {
+/* .btn-register:hover {
     background-color: rgb(68, 163, 236);
-}
+} */
 
 ion-icon{
     font-size: 1.08rem;
