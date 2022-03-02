@@ -284,9 +284,10 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     width: 80%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 90px;
     
 }
 
@@ -297,78 +298,31 @@ h1{
     overflow: hidden;
     position: relative;
     height :auto;
-    margin: 0px 25px;
-    padding: 30px 70px;
-    -webkit-border-radius: 70px;
-    border-radius: 70px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
     background: #ffffff;
     -webkit-box-shadow: 8px 8px 59px #e3e3e3, -8px -8px 59px #ffffff;
     box-shadow: 8px 8px 59px #e3e3e3, -8px -8px 59px #ffffff;
 
 }
 
-.ourteam .pic{
-    display: inline-block;
-    border-radius: 70px;
-    /* width: 130px;
-    height: 130px;
-    margin-bottom: 0px;
-    z-index: 1;
-    position: relative; */
-
+.ourteam .pic img{
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
 } 
 
-.container :hover {
+.ourteam:hover{
     transform: scale(1.05);
-    transition: 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
-/* .ourteam .pic::before{
-    content: "";
-    width: 100%;
-    height: 0;
-    border-radius: 50%;
-    background: rgb(82, 82, 85);
-    position: absolute;
-    bottom: 135%;
-    right: 0;
-    left: 0;
-    opacity: 0.2;
-    transform: scale(3);
-    transition: all 0.3s linear 0s;
-} */
-
-/* .ourteam:hover .pic::before {
-    height: 100%;
-}
-
-.ourteam .pic:after {
-    content: "";
-    width: 100%;
-    height: 0;
-    border-radius: 50%;
-    background: rgb(82, 82, 85);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-.ourteam .pic img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-    transform: scale(1);
-    transition: all 0.9s ease 0s;
-}
-
-.ourteam:hover .pic img {
-    box-shadow: 0 0 0 14px whitesmoke;
-    transform: scale(0.7);
-} */
 
 .ourteam .team-content {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    
 }
 
 .ourteam .title {
@@ -389,7 +343,7 @@ h1{
 
 
 
-button {
+.button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -398,10 +352,10 @@ button {
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
     font-size: 18px;
-    overflow: hidden;
-    width :50%;
+    margin-top: 10px;
+    border-radius: 5px;
   }
   
   a {
@@ -410,7 +364,7 @@ button {
     color: black;
   }
   
-  button:hover, a:hover {
+  .button:hover, a:hover {
     opacity: 0.5;
   }
 
@@ -423,4 +377,19 @@ button {
         margin-top: 30px;
     }
     
+}
+
+@media (max-width :480px){
+    .ourteam .pic img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .ourteam{
+        border-radius: 10px;
+    }
+
+    .button{
+        width: 80%;
+    }
 }
