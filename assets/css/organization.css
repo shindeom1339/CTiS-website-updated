@@ -8,7 +8,16 @@
 }
 
 
-/* Navbar */
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #565654;
+
+    
+  
+}
+
+
+/* ***********************************Navbar********************************** */
 
 .logo{
     width: 80px;
@@ -254,16 +263,61 @@
 
 
 
-/* Content */
-hr {
-    width: 20%;
-    border:solid 4px;
-    height: 1px;
+
+
+/* **************************************Content*************************************** */
+.comitee{
+    padding-top:10%;
    
-    color:rgba(133,114,81,1); 
-    background-color: rgba(133,114,81,1);
-    margin: auto;
+}
+
+h3{
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+.responsive{
+    width: 70%;
+    margin:auto;
+    display:flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+@media  (max-width : 950px) {
+    .responsive{
+        width:100%;
+
+    }
+}
+
+
+.container  {
+    text-align: center;
+    justify-content: center;
+ 
+    
+}
+
+.organization{
+    font-family: "open Sans" , sans-serif;
+    color:  #393185;
+    
+    padding: 25px 20px 4px 20px;
+    font-size: 2.5rem;
+    font-weight: 700px;
+    font-style: bold;
+}
+
+hr{
+    width: 15%;
+    border:solid 3.5px;
+    
     animation: Slide_right 1.4s ease;
+    /* color:rgba(133,114,81,1);  */
+    color:  #393185;
+    /* background-color: rgba(133,114,81,1); */
+    background-color:  #393185;
+    margin: auto;
 }
 @keyframes Slide_right {
     0% {
@@ -273,144 +327,44 @@ hr {
         transform: translateX(0px);
     }
 }
+@keyframes Slide_Up {
+    0% {
+        transform: translateY(250px);
+    }
+    100% {
+        transform: translateY(0px);
+    }}
 
-h1{
-    font-size: 2.5rem;
-    margin: 10px 0px 10px 0px;
-    text-align: center;
-    color: #393185;
-}
-
-hr{
-    width: 15%;
-    border:solid 3.5px;
-    /* animation: Slide_right 1.4s ease; */
-    color: #393185;
-    background-color: #393185;
-    margin: auto;
-}
-
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: auto;
-    margin-top: 90px;
+/* 
+.btn_organization{
+    color:rgba(206,169,100,1);
+    color: #565654;
     
-}
-
-.ourteam {
-
-    background: whitesmoke;
+    padding: 25px 20px 4px 20px;
+    font-size: 300%;
+    font-weight: 700px;
+    font-style: bold;
     text-align: center;
-    /* overflow: hidden; */
-    position: relative;
-    height :auto;
-    margin: 20px;
-    padding: 10px;
-    width: 25%;
-    border-radius: 30px;
-    background: #ffffff;
-    -webkit-box-shadow: 8px 8px 59px #e3e3e3, -8px -8px 59px #ffffff;
-    box-shadow: 8px 8px 59px #e3e3e3, -8px -8px 59px #ffffff;
-}
-
-.ourteam .pic img{
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-} 
-
-.ourteam:hover{
-    transform: scale(1.05);
-    transition: all 0.5s ease-in-out;
-}
-
-
-.ourteam .team-content {
-    margin-bottom: 20px;
-    margin-left: 10px;
-    
-}
-
-.ourteam .title {
-    font-size: 22px;
-    font-weight: 700;
-    color: black;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
-}
-
-.ourteam .post {
-    display: block;
-    font-size: 15px;
-    color: black;
-}
-
-
-
-
-
-.button {
+    background: none;
+    outline: none;
     border: none;
-    outline: 0;
-    display: inline-block;
-    padding : 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 50%;
-    font-size: 18px;
-    margin-top: 10px;
-    border-radius: 5px;
-  }
-  
-  a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-  }
-  
-  .button:hover, .team-content a:hover {
-    opacity: 0.5;
-  }
-
-@media (max-width : 720px) {
-    .container {
-        flex-direction: column;
-    }
-    .ourteam {
-        width: 80%;
-        margin-top: 30px;
-    }
+    cursor:pointer;
     
-}
 
-@media (max-width :480px){
-    .ourteam .pic img{
-        height: 150px;
-        width: 150px;
-    }
-
-    .ourteam{
-        border-radius: 10px;
-    }
-
-    .button{
-        width: 80%;
-    }
-}
-
-@media (max-width: 900px) {
-    .ourteam .pic img{
-        height: 160px;
-        width: 160px;
-    }
-    .button{
-        width: 80%;
-    }
-}
+} */
+/* 
+.btn_organization::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color:#565654;
+    display:block;
+    transition: .5s ease-in-out;
+} */
+/* .btn_organization:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #565654;
+    display:block;
+} */

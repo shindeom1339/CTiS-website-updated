@@ -2,6 +2,7 @@
 
 // sidebar open close 
 let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+let cross = document.querySelector(".bx-menu");
 let closeOpenBtn = document.querySelector(".nav-links .bx-x");
 let navLinks = document.querySelector(".nav-links");
 

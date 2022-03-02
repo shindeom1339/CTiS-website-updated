@@ -7,8 +7,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
-/* Navbar */
+/*------------------------------------NAVBAR----------------------------------------*/
 
 .logo{
     width: 80px;
@@ -32,7 +31,7 @@
 }
 
 .nav{
-    z-index: 1;
+    z-index: 2;
     position: fixed;
     top: 0;
     left: 0;
@@ -253,18 +252,23 @@
 }
 
 
-
 /* Content */
-hr {
-    width: 20%;
-    border:solid 4px;
-    height: 1px;
-   
-    color:rgba(133,114,81,1); 
-    background-color: rgba(133,114,81,1);
-    margin: auto;
-    animation: Slide_right 1.4s ease;
+
+.register-head{
+    font-size: 2.5rem;
+    margin: 30px 0px 10px 0px;
+    color: #393185;
 }
+
+hr{
+    width: 10%;
+    border:solid 3.5px;
+    animation: Slide_right 1.4s ease;
+    color: #393185;
+    background-color: #393185;
+    margin: auto;
+}
+
 @keyframes Slide_right {
     0% {
         transform: translateX(-250px);
@@ -274,143 +278,62 @@ hr {
     }
 }
 
-h1{
-    font-size: 2.5rem;
-    margin: 10px 0px 10px 0px;
-    text-align: center;
-    color: #393185;
-}
-
-hr{
-    width: 15%;
-    border:solid 3.5px;
-    /* animation: Slide_right 1.4s ease; */
-    color: #393185;
-    background-color: #393185;
-    margin: auto;
-}
-
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: auto;
-    margin-top: 90px;
-    
-}
-
-.ourteam {
-
-    background: whitesmoke;
-    text-align: center;
-    /* overflow: hidden; */
+.btn_register {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
     position: relative;
-    height :auto;
-    margin: 20px;
-    padding: 10px;
-    width: 25%;
-    border-radius: 30px;
-    background: #ffffff;
-    -webkit-box-shadow: 8px 8px 59px #e3e3e3, -8px -8px 59px #ffffff;
-    box-shadow: 8px 8px 59px #e3e3e3, -8px -8px 59px #ffffff;
-}
-
-.ourteam .pic img{
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-} 
-
-.ourteam:hover{
-    transform: scale(1.05);
-    transition: all 0.5s ease-in-out;
-}
-
-
-.ourteam .team-content {
-    margin-bottom: 20px;
-    margin-left: 10px;
-    
-}
-
-.ourteam .title {
-    font-size: 22px;
-    font-weight: 700;
-    color: black;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
-}
-
-.ourteam .post {
-    display: block;
-    font-size: 15px;
-    color: black;
-}
-
-
-
-
-
-.button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding : 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 50%;
-    font-size: 18px;
-    margin-top: 10px;
-    border-radius: 5px;
-  }
-  
-  a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-  }
-  
-  .button:hover, .team-content a:hover {
-    opacity: 0.5;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    margin: 40px;
   }
 
-@media (max-width : 720px) {
-    .container {
-        flex-direction: column;
-    }
-    .ourteam {
-        width: 80%;
-        margin-top: 30px;
-    }
-    
-}
+  .btn-register-div button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #393185;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+  }
 
-@media (max-width :480px){
-    .ourteam .pic img{
-        height: 150px;
-        width: 150px;
-    }
+ .btn-register-div button:hover {
+    color: #e8e8e8;
+  }
 
-    .ourteam{
-        border-radius: 10px;
+  .btn-register-div button:hover::before {
+    width: 100%;
+  }
+  .side {
+      font-size: 4vh;
+      padding-top: 0%;
+      padding-left: 20px;
+      margin: 50px auto;
     }
-
-    .button{
-        width: 80%;
+  @media (min-width: 800px) {
+    h1 {
+      font-size: 9vh;
     }
-}
-
-@media (max-width: 900px) {
-    .ourteam .pic img{
-        height: 160px;
-        width: 160px;
+    .main {
+      margin: 0 1px 0 0;
+      padding-left: 15%;
     }
-    .button{
-        width: 80%;
+    .side {
+      font-size: 3vh;
+      padding-top: 0%;
+      padding-left: 20px;
     }
-}
+  }
