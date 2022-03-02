@@ -223,10 +223,13 @@
     .nav .navbar .nav-links .links{
         display: block;
         margin-top: 5px;
+        text-align: center;
+        justify-content: center;
     }
     .nav .navbar .nav-links .links .nav-items{
         display: block;
-
+        text-align: center;
+        justify-content: center;
     }
     .navbar .nav-links .links .sub-menu{
         position: relative;
