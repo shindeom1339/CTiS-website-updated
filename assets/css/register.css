@@ -254,8 +254,22 @@
     }
 }
 
+.logo-container{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
 
 /* Content */
+
+.comingsoon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding-top: 12%;
+    margin: auto;
+}
 
 .register-head{
     font-size: 2.5rem;

@@ -27,7 +27,7 @@
     /* color: #fff; */
     color: #000;
     line-height: 70px;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .nav{
@@ -48,7 +48,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 .nav .navbar .nav-links{
     height: 100%;
@@ -256,6 +256,12 @@
     }
 }
 
+.logo-container{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
 /*------------------------------------CAROUSEL----------------------------------------*/
 
 .mySlides{
@@ -298,11 +304,12 @@
     font-size: 3.5rem;
     padding: 8px 12px;
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
     /* text-align: center; */
     top: 30%;
     left: 45%;
     bottom: 50%;
+    right: 0;
 }
 
 .numberText{
@@ -459,7 +466,7 @@ hr{
 footer{
     width: 80%;
     /* margin: auto; */
-    margin: 80px auto 0px auto;
+    margin: 80px auto 40px auto;
 }
 .footer{
     width: 100%;

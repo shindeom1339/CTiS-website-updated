@@ -255,6 +255,12 @@
     }
 }
 
+.logo-container{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
 
 /* Content */
 
@@ -473,7 +479,7 @@ padding-right:10px ;
 footer{
     width: 80%;
     /* margin: auto; */
-    margin: 80px auto 0px auto;
+    margin: 80px auto 40px auto;
 }
 .footer{
     width: 100%;
