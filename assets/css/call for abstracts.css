@@ -470,3 +470,23 @@ padding-right:10px ;
         animation: Slide_Up 1.4s ease;
       }
 }
+footer{
+    width: 80%;
+    /* margin: auto; */
+    margin: 80px auto 0px auto;
+}
+.footer{
+    width: 100%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1000px){
+    footer{
+        width: 100%;
+    }
+    .footer{
+        width: 95%;
+        /* height: 100%; */
+        margin: 0 2%;
+    } 
+}

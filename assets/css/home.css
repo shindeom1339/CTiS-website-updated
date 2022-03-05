@@ -368,6 +368,7 @@
 .host-text{
     margin: 0px 0px 0px 0px;
     font-size: 1.5rem;
+    line-height: 2;
 }
 
 .about-head{
@@ -482,4 +483,7 @@ footer{
         /* height: 100%; */
         margin: 0 2%;
     } 
+}
+em{
+    font-weight: normal;
 }
