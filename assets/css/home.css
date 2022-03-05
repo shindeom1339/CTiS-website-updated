@@ -386,7 +386,7 @@
     color: #393185;
 }
 .about-para{
-    text-align: left;
+    text-align: justify;
     margin: 40px 0 40px 0px;
     font-size: 1.08rem;
     line-height: 1.8;

@@ -264,6 +264,9 @@
 
 /* Content */
 
+.one{
+    text-align: justify;
+}
 .ca-container{
     width: 80%;
     margin: auto;
