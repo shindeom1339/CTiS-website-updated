@@ -376,7 +376,7 @@
 
 .host-text{
     margin: 0px 0px 0px 0px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 2;
 }
 
@@ -479,6 +479,9 @@ footer{
     }
     .home-container{
         width: 90%;
+    }
+    .host-text{
+        font-size: 0.9rem;
     }
     
 }
