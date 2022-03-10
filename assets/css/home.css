@@ -363,7 +363,11 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .prev, .next,.text, .numberText {font-size: 14px}
+    .prev, .next, .numberText {font-size: 14px}
+    .text{
+        font-size: 11px;
+        left: 32.5%;
+    }
   }
 
 
