@@ -264,6 +264,12 @@
 
 /* Content */
 
+ion-icon{
+    font-size: 1.08rem;
+    margin: 0 3px;
+    padding: 0;
+}
+
 .one{
     text-align: justify;
 }
