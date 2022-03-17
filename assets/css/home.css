@@ -547,7 +547,7 @@ hr{
 
 .acm-head{
     font-size: 2.5rem;
-    margin: 90px 0px 10px 0px;
+    margin: 130px 0px 10px 0px;
     color: #393185;
 }
 
@@ -609,10 +609,11 @@ footer{
     width: 80%;
     /* margin: auto; */
     margin: 80px auto 40px auto;
+    text-align: center;
 }
 .footer{
     width: 100%;
-    margin: auto;
+    margin: 90px auto 0 auto;
 }
 
 @media only screen and (max-width: 600px){
@@ -621,6 +622,7 @@ footer{
     }
     .acm-head{
         font-size: 1.65rem;
+        margin-top: 70px;
     }
     .home-container{
         width: 90%;
@@ -637,11 +639,11 @@ footer{
         flex-direction: column;
     }
     .partner-logo{
-        width: 55%;
+        width: 53%;
         margin: 0 0 35px 0;
     }
     .partner-persistent-logo{
-        width: 35%;
+        width: 33%;
         margin: 0 0 35px 0;
     }
     .partner-tcs-logo{
@@ -657,7 +659,7 @@ footer{
         margin: 15px 0 0px 0;
     }
     .partner-cisco-logo{
-        width: 45%;
+        width: 43%;
         margin: 0 0 35px 0;
     }
     .partner-facebook-logo{
@@ -673,7 +675,7 @@ footer{
     .footer{
         width: 95%;
         /* height: 100%; */
-        margin: 0 2%;
+        margin: 16% 2% 0 2%;
     } 
 }
 em{
