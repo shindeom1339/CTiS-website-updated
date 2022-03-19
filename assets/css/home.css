@@ -49,8 +49,9 @@
 
 @media (max-width:800px){
     .header-logo{
-        margin: auto;
-        width: 60%;
+        margin: auto auto 10px auto;
+        width: 90%;
+        height: auto;
     }
 }
 
