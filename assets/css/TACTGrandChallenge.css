@@ -349,6 +349,10 @@ hr{
 }
 
 @media (max-width: 500px){
+    .container{
+        width: 90%;
+        margin: auto auto 60px auto;
+    }
     .tact-head{
         font-size:1.5rem
     }
