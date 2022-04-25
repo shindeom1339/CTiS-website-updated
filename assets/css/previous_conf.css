@@ -369,3 +369,10 @@ hr{
     color: #000;
     border-radius: 6px;
 }
+
+@media (max-width: 600px){
+    .pyr-container{
+        width: 90%;
+        margin: 40px auto;
+    }
+}
