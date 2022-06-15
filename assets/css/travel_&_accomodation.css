@@ -427,7 +427,8 @@ hr{
         width: 90%;
     }
     .organization{
-        font-size: 2.2rem;
+        /* font-size: 1.224rem; */
+        font-size:140%;
     }
     hr{
         width: 30%;
