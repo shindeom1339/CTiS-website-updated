@@ -141,12 +141,13 @@
 }
 .navbar .nav-links .links .dropdown-content .dropdown-text{
     padding: 0 25px;
+   
 }
 .navbar .nav-links .links .dropdown-content .dropdown-text .dropdown-link{
     text-decoration: none;
     /* color: #fff; */
     color: #000;
-    font-size: 15px;
+    font-size: 13px;
     font: 500;
 }
 
