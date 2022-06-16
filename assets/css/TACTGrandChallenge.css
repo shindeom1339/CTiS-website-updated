@@ -545,7 +545,7 @@ footer{
     text-align: center;
 }
 .footer{
-    width: 40%;
+    width: 50%;
     margin: 10px auto 0 auto;
 }
 
@@ -575,12 +575,13 @@ footer{
 @media (max-width:1000px){
     footer{
         width: 90%;
+        margin: auto auto 60px auto;
         margin-bottom: 60px;
     }
     .footer{
         width: 90%;
         /* height: 100%; */
-        margin: 6% 2% 0 2%;
+        margin: 6% 1% 0 1%;
     }
 }
 
