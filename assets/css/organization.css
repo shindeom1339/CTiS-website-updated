@@ -292,37 +292,33 @@
 
 
 /* **************************************Content*************************************** */
+.responsive{
+    width: 100%;
+    margin: auto;
+    padding-left: 30px;
+    text-align: left;
+    /* display:flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+}
+
 .comitee{
     padding-top:10%;
-   
 }
 
 h3{
     padding-bottom: 20px;
     padding-top:20px;
 }
-.responsive{
-    width: 80%;
-    margin: auto;
-    padding-left: 30px;
-    /* display:flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* flex-direction: column; */
-}
-@media  (max-width : 950px) {
-    .responsive{
-        width:70%;
-        margin: 2%;
-    }
-}
+
 
 
 .container  {
+    width: 80%;
+    margin: auto;
     text-align: center;
-    justify-content: center;
- 
-    
+    /* justify-content: center; */
 }
 
 .organization{
@@ -359,6 +355,18 @@ hr{
     100% {
         transform: translateY(0px);
     }}
+@media (max-width: 768px) {
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .responsive{
+        width:75%;
+        margin: 0%;
+        padding-left: 30px;
+    }
+}
+
 
 /* 
 .btn_organization{
