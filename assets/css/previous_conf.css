@@ -207,7 +207,7 @@
     }
 }
 
-@media (max-width:800px){
+@media (max-width:1300px){
     .nav .navbar .nav-links{
         display: block;
         position: fixed;
