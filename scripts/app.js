@@ -17,10 +17,10 @@ closeOpenBtn.addEventListener('click', ()=>{
 });
 
 // sidebar sub menu open close js code=
-// let arrow = document.querySelector(".bx-chevron-down");
-// arrow.addEventListener("click", ()=>{
-//     navLinks.classList.toggle("show1");
-// });
+let arrow = document.querySelector(".bx-chevron-down");
+arrow.addEventListener("click", ()=>{
+    navLinks.classList.toggle("show1");
+});
 
 
 ///////////////////////////   CAROUSEL  ////////////////////////////
