@@ -8,7 +8,7 @@
 }
 
 
-/* Navbar */
+/*------------------------------------NAVBAR----------------------------------------*/
 
 .logo{
     width: 80px;
@@ -28,16 +28,41 @@
     /* color: #fff; */
     color: #000;
     line-height: 70px;
-    padding: 0 20px;
+    padding: 0 10px;
+}
+
+.header-logo-div{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+}
+
+.header-logo{
+    margin: auto;
+    width: 40%;
+}
+
+@media (max-width:800px){
+    .header-logo{
+        margin: auto auto 10px auto;
+        width: 90%;
+        height: auto;
+    }
 }
 
 .nav{
     z-index: 1;
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 0;
     width: 100%;
-    height: 70px;
+    height: 80px;
     /* background: #393185; */
     background: white;
 }
@@ -49,7 +74,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 .nav .navbar .nav-links{
     height: 100%;
@@ -225,11 +250,13 @@
         margin-top: 5px;
         text-align: center;
         justify-content: center;
+
     }
     .nav .navbar .nav-links .links .nav-items{
         display: block;
         text-align: center;
         justify-content: center;
+
     }
     .navbar .nav-links .links .sub-menu{
         position: relative;
@@ -253,6 +280,12 @@
     .navbar .nav-links.show1 .links .nav-items i{
         transform: rotate(180deg);
     }
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
 }
 
 /* Content */
