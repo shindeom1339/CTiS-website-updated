@@ -297,7 +297,7 @@
     justify-content: center;
     text-align: justify; 
 }
-@media (min-width: 768px){
+@media (max-width: 768px){
     .heading{
         width: 90%;
         margin: auto;
